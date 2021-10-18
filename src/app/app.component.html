@@ -1,4 +1,10 @@
-<app-card></app-card>
+<app-card *ngFor="let post of posts; let i=index"
+  [title]="posts[i].title"
+  [imgUrl]="posts[i].imgUrl"
+  [imgAlt]="posts[i].imgAlt"
+  [username]="posts[i].username"
+  [content]="posts[i].content"
+></app-card>
 
 
   
