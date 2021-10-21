@@ -29,6 +29,8 @@ export class AppComponent {
       imgAlt: '',
       username: 'biking1222',
       content: 'I did some biking today'
+    
     }
   ]
+
 }
